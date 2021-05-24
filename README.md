@@ -1,6 +1,6 @@
 # Meraki License Plate Detector
 
-This projects integrates Meraki MV Cameras, MT Sensors and Plate Recognizer software to detect when a garage door is opened to take a snapshot, and detect vehicle license plates through Plate Recognizer software.
+This projects integrates Meraki MV Cameras, MT Sensors and Plate Recognizer software to detect when a garage door is opened to take a snapshot, and detect vehicle license plates.
 
 ## Description
 
@@ -26,13 +26,13 @@ The workflow will be the following:
 
 1. Clone this repo in your local machine typing on your terminal:
 
-```https://github.com/agmanuelian/Meraki_Facemask_Detector.git```
+```https://github.com/agmanuelian/Meraki_License_Plate_Detector.git```
 
 2. Install the required dependencies specified on the _requirements.txt_ file:
 
 ```pip3 install requirements.txt```
 
-3. On you AWS account, set up your **Lambda Function**. When it's time to upload your code, zip the *lambda_module* directory, and upload the .zip file. Before doing this, be sure to update all your credentials on the *lambda_module/main_plate.py* file.
+3. On you AWS account, set up your **Lambda Function**. When it's time to upload your code, zip the *lambda_module* directory, and upload the .zip file. Before you do this, be sure to update all your credentials in the *lambda_module/main_plate.py* file.
 
 #### Lambda Setup - Step 1
 
@@ -64,8 +64,10 @@ Here you will find an example workflow on how to setup you API Gateway. Replace 
 
 7. Add your recently created bot to a Webex room. The bot access token and the Room ID should be already configured on the *lambda_module/main_plate.py* file.
 
+8. You are done! When the alert is triggered by the sensor, you will receive a Webex message with the analysis results.
 
 ## Output
 
 These are the results of the image analysis posted into a Webex Room.
 
+![Webex_Results](imgs/webex_plate.png "Results posted into a Webex Room")
