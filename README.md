@@ -22,11 +22,11 @@ The workflow will be the following:
 
 ## Usage
 
-1. Clone this repo in your local machine typing on your terminal:
+1. Clone this repo to your local machine by typing on your terminal:
 
 ```https://github.com/agmanuelian/Meraki_License_Plate_Detector.git```
 
-2. Install the required dependencies specified on the _requirements.txt_ file:
+2. Install the required dependencies specified in the _requirements.txt_ file:
 
 ```pip3 install requirements.txt```
 
