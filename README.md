@@ -2,7 +2,7 @@
 
 ## Description
 
-This projects integrates Meraki MV Cameras, MT Sensors and Plate Recognizer software to detect when a garage door is opened to take a snapshot, and detect vehicle license plates.
+This project integrates Meraki MV Cameras, MT Sensors and Plate Recognizer software to detect when a garage door is opened to take a snapshot, and detect vehicle license plates.
 
 ### Workflow
 
@@ -52,7 +52,7 @@ Here you will find an example workflow on how to setup you API Gateway. Replace 
 
 ![API Gateway Setup - Step 1](imgs/apigw1.gif "API Gateway Setup - Step 1")
 
-#### API Gatewat Setup - Step 2
+#### API Gateway Setup - Step 2
 
 ![API Gateway Setup - Step 1](imgs/apigw2.gif "API Gateway Setup - Step 2")
 
