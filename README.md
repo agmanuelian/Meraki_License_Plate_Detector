@@ -69,3 +69,12 @@ Here you will find an example workflow on how to setup you API Gateway. Replace 
 These are the results of the image analysis posted into a Webex Room.
 
 ![Webex_Results](imgs/webex_plate.png "Results posted into a Webex Room")
+
+### Links to DevNet Learning Labs
+
+[Meraki Learning Lab](https://developer.cisco.com/learning/tracks/meraki)
+
+### Related Sandbox
+
+[Meraki Always On Sandbox](https://devnetsandbox.cisco.com/RM/Diagram/Index/a9487767-deef-4855-b3e3-880e7f39eadc?diagramType=Topology)
+[Meraki Enterprise Sandbox](https://devnetsandbox.cisco.com/RM/Diagram/Index/e7b3932b-0d47-408e-946e-c23a0c031bda?diagramType=Topology)
